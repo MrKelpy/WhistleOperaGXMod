@@ -1,0 +1,51 @@
+{
+    "manifest_version": 3,
+    "name": "Whistle",
+    "description": "Josh Hutchkerson FTW fr fr no cap",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "Alexandre Silva"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/typing.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/typing.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/typing.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/typing.mp3"
+                ]
+            },
+            "browser_sounds":
+            {
+                "TAB_CLOSE":
+                [
+                    "sounds/close_tab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/create_tab.mp3"
+                ]
+            }
+        }
+    }
+}
